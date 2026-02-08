@@ -1,121 +1,18 @@
-<!DOCTYPE html><html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Devpixel Space | Designing Every Pixel of Your Brand</title>
-  <meta name="description" content="Devpixel Space is a digital agency offering SEO, SMO, web development, app development, branding, video editing, and software licensing solutions." />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
-    body { background: #0b0f1a; color: #ffffff; line-height: 1.6; }
-    a { text-decoration: none; color: inherit; }header { background: #0f172a; padding: 20px 8%; position: sticky; top: 0; z-index: 1000; }
-nav { display: flex; justify-content: space-between; align-items: center; }
-nav img { height: 45px; border-radius:40px }
-nav ul { list-style: none; display: flex; gap: 30px; }
-nav ul li a { font-weight: 500; transition: 0.3s; }
-nav ul li a:hover { color: #a855f7; }
+<!DOCTYPE html>
+<html lang="en">
+<head data-include="components/head.html"></head>
 
-section { padding: 80px 8%; }
-
-.hero { text-align: center; padding-top: 100px; }
-.hero img { width: 320px; margin-bottom: 20px; border-radius:10px }
-.hero h1 { font-size: 3rem; margin-bottom: 15px; }
-.hero p { max-width: 800px; margin: auto; color: #cbd5f5; }
-
-.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 25px; margin-top: 40px; }
-.card { background: #111827; padding: 30px; border-radius: 14px; transition: 0.3s; }
-.card:hover { transform: translateY(-6px); box-shadow: 0 10px 40px rgba(168,85,247,0.3); }
-.card h3 { margin-bottom: 10px; }
-
-h2 { text-align: center; font-size: 2.4rem; margin-bottom: 20px; }
-.sub { text-align: center; max-width: 700px; margin: auto; color: #94a3b8; }
-
-ul.clean { list-style: none; margin-top: 20px; }
-ul.clean li { margin-bottom: 8px; color: #e5e7eb; }
-
-footer { background: #020617; padding: 40px 8%; text-align: center; color: #94a3b8; }
-
-form { max-width: 600px; margin: 40px auto 0; display: flex; flex-direction: column; gap: 15px; }
-input, textarea { padding: 14px; border-radius: 8px; border: none; outline: none; }
-button { padding: 14px; background: linear-gradient(135deg, #7c3aed, #a855f7); border: none; border-radius: 8px; color: #fff; font-weight: 600; cursor: pointer; }
-button:hover { opacity: 0.9; }
-
-@media(max-width: 768px) {
-  .hero h1 { font-size: 2.2rem; }
-  nav ul { gap: 18px; }
-}
-
-  </style>
-</head>
-<body><header>
-  <nav>
-    <a href="#home"><img src="logo.jpg" alt="Devpixel Space Logo"></a>
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-</header><section id="home" class="hero">
-  <img src="logo.jpg" alt="Devpixel Space">
-  <h1>Designing Every Pixel of Your Brand</h1>
-  <p>Devpixel Space is a full‑stack digital agency delivering powerful digital solutions through creativity, technology, and strategy.</p>  <div class="grid">
-    <div class="card"><h3>Mission</h3><p>To empower brands with innovative digital experiences that drive growth and visibility.</p></div>
-    <div class="card"><h3>Vision</h3><p>To become a globally trusted digital partner for businesses and agencies.</p></div>
-    <div class="card"><h3>Why Choose Us</h3><p>Result‑driven approach, honest collaboration, modern tech, and scalable solutions.</p></div>
+<body>
+  <div class="page-wrapper">
+    <div data-include="components/header.html"></div>
+    <div data-include="components/hero.html"></div>
+    <div data-include="components/about.html"></div>
+    <div data-include="components/services.html"></div>
+    <div data-include="components/projects.html"></div>
+    <div data-include="components/contact.html"></div>
+    <div data-include="components/footer.html"></div>
   </div>
-</section><section id="about">
-  <h2>About Devpixel Space</h2>
-  <p class="sub">We are a creative technology company delivering high‑impact digital products for startups, enterprises, and agencies worldwide.</p>  <div class="grid">
-    <div class="card"><h3>Company Overview</h3><p>We specialize in design, development, marketing, and software solutions tailored to business goals.</p></div>
-    <div class="card"><h3>Industries We Serve</h3><p>IT, Healthcare, Real Estate, Education, E‑commerce, Manufacturing, Security & Surveillance.</p></div>
-  </div>
-</section><section id="services">
-  <h2>Our Services</h2>
-  <div class="grid">
-    <div class="card">SEO, SMO & SMM</div>
-    <div class="card">Website Design & Development</div>
-    <div class="card">E‑Commerce Solutions</div>
-    <div class="card">Mobile App Development</div>
-    <div class="card">Logo & Brand Design</div>
-    <div class="card">Graphic, Brochure & Flyer Design</div>
-    <div class="card">Video Editing</div>
-    <div class="card">Software Licensing & Digital Products</div>
-  </div>
-</section><section id="projects">
-  <h2>Our Projects</h2>  <div class="grid">
-    <div class="card"><h3>Development</h3><ul class="clean">
-<li><a href="https://cctvdesk.com" target="_blank">cctvdesk.com</a></li>
-<li><a href="https://qamraltd.com" target="_blank">qamraltd.com</a></li>
-<li><a href="https://mubadalait.com" target="_blank">mubadalait.com</a></li>
-<li><a href="https://ccgcglobal.com" target="_blank">ccgcglobal.com</a></li>
-<li><a href="https://sinmersa.com" target="_blank">sinmersa.com</a></li>
-<li><a href="https://counselandquote.com" target="_blank">counselandquote.com</a></li>
-<li><a href="https://tecknoligent.com" target="_blank">tecknoligent.com</a></li>
-<li><a href="https://withoutplugin.com" target="_blank">withoutplugin.com</a></li>
-<li><a href="https://itascamoccasin.com" target="_blank">itascamoccasin.com</a></li>
-</ul></div><div class="card"><h3>Designing</h3><p><a href="https://drive.google.com/drive/folders/1EBEc159CjcKrjei2tQnNHeuu0Uqiom27?usp=drive_link" target="_blank">View Design Portfolio</a></p></div>
-<div class="card"><h3>Video Editing</h3><p><a href="https://drive.google.com/drive/folders/1jrm8Pv5bcv1D14YuCcWO4l6yLj5YHWSv?usp=drive_link" target="_blank">View Video Portfolio</a></p></div>
 
-<div class="card"><h3>SMO</h3><ul class="clean"><li>Al‑Mubadala IT</li><li>TimeWatch Arabia</li><li>Tecknoligent India</li><li>CCTV Desk</li><li>Without Plugin</li></ul></div>
-
-<div class="card"><h3>Software Licensing</h3><p>Microsoft, Windows ,Autodesk, CorelDRAW, AI Tools, LinkedIn Vouchers</p></div>
-
-<div class="card"><h3>On‑Going Projects</h3><ul class="clean"><li>Inventory Management App</li><li>Hospital Patient Record System</li><li>Event Management System</li></ul></div>
-
-  </div>
-</section><section id="contact">
-  <h2>Contact Us</h2>
-  <p class="sub">Let’s discuss your project and grow together.</p>
-  <form action="mailto:devpixelspace@gmail.com" method="post" enctype="text/plain">
-    <input type="text" placeholder="Your Name" required>
-    <input type="email" placeholder="Your Email" required>
-    <textarea rows="5" placeholder="Your Message"></textarea>
-    <button type="submit">Send Message</button>
-  </form>
-</section><footer>
-  <p>© 2026 Devpixel Space. All Rights Reserved.</p>
-</footer></body>
+  <script type="module" src="js/include.js"></script>
+</body>
 </html>
